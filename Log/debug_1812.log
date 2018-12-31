@@ -1,0 +1,121 @@
+18-12-01 01:21:21:Error at file[/usr/local/nginx/html/imooc_esapi/vendor/joshcam/mysqli-database-class/MysqliDb.php] line[323] message:[mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 01:21:21:Error at file[/usr/local/nginx/html/imooc_esapi/vendor/joshcam/mysqli-database-class/MysqliDb.php] line[323] message:[mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 01:21:39:Error at file[/usr/local/nginx/html/imooc_esapi/vendor/joshcam/mysqli-database-class/MysqliDb.php] line[323] message:[mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 01:21:39:Error at file[/usr/local/nginx/html/imooc_esapi/vendor/joshcam/mysqli-database-class/MysqliDb.php] line[323] message:[mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 20:53:29:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[27] message:[Redis::connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 20:53:29:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[29] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:29
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(39): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-01 20:57:23:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[27] message:[Redis::connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 20:57:23:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[29] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:29
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(39): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-01 20:57:38:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[27] message:[Redis::connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 20:57:38:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[29] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:29
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(39): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-01 20:58:51:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[27] message:[Redis::connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 20:58:51:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[29] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:29
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(42): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-01 20:59:18:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[27] message:[Redis::connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 20:59:18:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[29] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:29
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(42): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-01 21:00:01:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[28] message:[Redis::connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 21:00:01:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[30] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:30
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(42): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-01 21:00:48:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[28] message:[Redis::connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 21:00:48:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[30] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:30
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(42): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-01 21:01:55:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[28] message:[Redis::connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known]
+18-12-01 21:01:55:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[30] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:30
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(42): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-01 22:23:32:Error at file[/usr/local/nginx/html/imooc_esapi/App/HttpController/Api/Index.php] line[20] message:[Trait 'App\HttpController\Responses' not found]
+18-12-01 22:23:39:Error at file[/usr/local/nginx/html/imooc_esapi/App/HttpController/Api/Index.php] line[20] message:[Trait 'App\HttpController\Responses' not found]
+18-12-01 22:24:14:Error at file[/usr/local/nginx/html/imooc_esapi/App/HttpController/Api/Index.php] line[20] message:[Trait 'App\HttpController\Responses' not found]
+18-12-01 22:25:08:Error at file[/usr/local/nginx/html/imooc_esapi/App/HttpController/Api/Index.php] line[20] message:[Trait 'App\HttpController\Responses' not found]
+18-12-01 23:24:21:Error at file[/usr/local/nginx/html/imooc_esapi/App/HttpController/Api/Index.php] line[12] message:[Declaration of App\HttpController\Api\Index::index(App\HttpController\Server\Index $index) must be compatible with App\HttpController\Api\Base::index()]
+18-12-01 23:26:01:Error at file[/usr/local/nginx/html/imooc_esapi/App/HttpController/Api/Index.php] line[12] message:[Cannot declare class App\HttpController\Api\Index because the name is already in use]
+18-12-01 23:28:04:Error at file[/usr/local/nginx/html/imooc_esapi/App/HttpController/Api/Index.php] line[12] message:[Declaration of App\HttpController\Api\Index::index(App\HttpController\Server\Index $index) must be compatible with App\HttpController\Api\Base::index()]
+18-12-02 00:10:23:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[29] message:[A non well formed numeric value encountered]
+18-12-02 00:10:23:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[29] message:[A non well formed numeric value encountered]
+18-12-02 00:10:23:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[31] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:31
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(43): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-02 00:15:04:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[31] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:31
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(43): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-02 00:15:36:Error at file[/usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php] line[31] message:[Uncaught Exception: redis服务异常 in /usr/local/nginx/html/imooc_esapi/App/Lib/Redis/Redis.php:31
+Stack trace:
+#0 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/AbstractInterface/Singleton.php(18): App\Lib\Redis\Redis->__construct()
+#1 /usr/local/nginx/html/imooc_esapi/EasySwooleEvent.php(43): App\Lib\Redis\Redis::getInstance()
+#2 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#3 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#4 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#5 /usr/local/nginx/html/imooc_esapi/vendor/easyswoole/easyswoole/bin/easyswoole(326): EasySwoole\Core\Core->run()
+#6 /usr/lo]
+18-12-23 18:41:12:Error at file[/usr/local/nginx/html/imooc_esapi/App/HttpController/Server/Upload/Base.php] line[117] message:[Undefined property: App\HttpController\Server\Upload\Image::$clientMediaType]
